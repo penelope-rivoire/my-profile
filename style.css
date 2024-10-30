@@ -1,0 +1,80 @@
+/* Colorsi and fonts */
+body {
+	color: slategray;
+	background-color: #D4E5DA;
+	line-height: 1.2;
+	letter-spacing: 0.1px;
+	text-align: justifiy;
+	border: gray;
+	font-family: helvetica;
+	font-size: 14px;
+	word-spacing: 1px;
+}
+
+h1 {
+	color: #3E5C6C;
+	font-size: 27px;
+	font-family: times;
+}
+
+h2 {
+	color: darkslategray;
+	font-size: 20px;
+	font-family: Times New Roman;
+
+}
+
+a {
+	color: darkseagreen;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	width: 130px;
+	border-radius: 50%;
+}
+
+.btn-green {
+	background-color: darkseagreen;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 2px;
+
+}
+
+.btn-green:hover {
+background-color: lightgray;
+	color: slategray;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
